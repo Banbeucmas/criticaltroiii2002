@@ -6,6 +6,7 @@ const int MOD = 1e9 + 7;
 int n, d;
 vector<int> cnt(10, 0);
 
+//GAYYYYYYYYYYY
 int fpow(int x,int y) {
 	int res = 1;
 	while (y) {
@@ -16,6 +17,7 @@ int fpow(int x,int y) {
 	return res;
 }
 
+//GAYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 int calc() {
 	int all = 0; for (int i = 0;i < 10;++i) all += cnt[i];
 	int fact = 1; for (int i = 1;i <= all;++i) fact = 1LL * fact * i % MOD;
@@ -34,6 +36,7 @@ int calc() {
 		if (sumpw >= MOD) sumpw -= MOD;
 		pw = 1LL * pw * 10 % MOD;
 	}
+	//GAYYYAYYAYSYAYSYAYSYAYAY
 	int res = 0;
 	for (int i = 0;i < 10;++i) {
 		int f = fact;
